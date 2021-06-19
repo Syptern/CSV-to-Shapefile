@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSV to Point Shapefile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="some.css">
+
+</head>
+
+<body>
+
+
+    <div class="container-sm center_div mt-5">
+
+        <h1>CSV to Point Shapefile converter</h1>
+        <p class="mb-5"> Make sure your .csv file has two columns with the name 'lat' and 'lon' containing the coordinates.</p>
+  <form name="uploadForm" id='uploadForm' action="/upload-csv" method="POST" enctype="multipart/form-data" >
+        <input class="form-control" id='fileInput' name='file' type="file">
+    <input class="btn btn-primary my-3" id='submit' type="submit" value="Convert" >
+  </form>
+</div>
+<!-- <script  src="index.js"></script> -->
+
+</body>
