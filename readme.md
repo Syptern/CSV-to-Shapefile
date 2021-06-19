@@ -23,3 +23,7 @@ Then go to **http://localhost:3000**
 ## CSV file requirements
 
 Make sure your .csv files has two columns with coordinates. The columns must be names **lat** and **lon**. Other data of the csv file will be added to the shapefile as attributes.
+
+The file must be comma seperated ','.
+
+';' seperated doesn't work.
