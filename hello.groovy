@@ -3,8 +3,8 @@ import geoscript.workspace.*
 import geoscript.feature.*
 
 
-def dir = new Directory("/Users/timonvanzoest/Documents/UNIBZ/Advanced_geomatics/exam/output")
-def inputFile = "/Users/timonvanzoest/Documents/UNIBZ/Advanced_geomatics/exam/uploads/" + args[0] as File
+def dir = new Directory("output")
+def inputFile = "uploads/" + args[0] as File
 
 def data = []
 def columns = []
